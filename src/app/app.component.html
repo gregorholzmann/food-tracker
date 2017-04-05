@@ -1,3 +1,33 @@
 <h1>
   {{title}}
 </h1>
+
+<div *ngFor="let entry of foodEntries; let i = index">
+  <h2>
+    {{entry.date}}
+  </h2>
+  <h3>
+    Meaty:
+  </h3>
+  <p>{{entry.meaty}}</p>
+  <h3>
+    Bready/Grainy:
+  </h3>
+  <p>{{entry.breadygrainy}}</p>
+  <h3>
+    Veggie:
+  </h3>
+  <p>{{entry.veggie}}</p>
+  <h3>
+    Fruity:
+  </h3>
+  <p>{{entry.fruity}}</p>
+  <h3>
+    Dairy-y:
+  </h3>
+  <p>{{entry.dairy}}</p>
+  <h3>
+    Drinky:
+  </h3>
+  <p>{{entry.drinky}}</p>
+</div>
