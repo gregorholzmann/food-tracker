@@ -29,8 +29,8 @@ export class FoodDataService {
       let day = {};
       day['date'] = entryPoint.title.$t;
       day['meaty'] = entryPoint.gsx$meaty.$t;
-      day['bready-grainy'] = entryPoint.gsx$breadygrainy.$t;
-      // day['dairy'] = entryPoint.gsx$dairy.$t;
+      day['breadygrainy'] = entryPoint.gsx$breadygrainy.$t;
+      day['dairy'] = entryPoint.gsx$dairy.$t;
       day['drinky'] = entryPoint.gsx$drinky.$t;
       day['fruity'] = entryPoint.gsx$fruity.$t;
       day['veggie'] = entryPoint.gsx$veggie.$t;
